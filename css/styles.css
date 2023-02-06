@@ -42,11 +42,12 @@ h6 {
 
 .contenido-principal__imagen-perfil {
 	float: left;
-	width: 20%;
+	width: 40%;
 	margin: 0 1rem 0.5rem 0;
 	border-radius: 5%;
 }
 
 .contenido-principal__descripcion {
 	line-height: 1.5;
+	text-align: justify;
 }
