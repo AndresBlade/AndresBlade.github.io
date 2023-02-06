@@ -36,17 +36,17 @@ h6 {
 }
 
 .contenedor {
-	width: 80%;
+	width: 95%;
 	margin: 0 auto;
 }
 
 .contenido-principal__imagen-perfil {
 	float: left;
 	width: 20%;
-	margin: 0 2rem 2rem 0;
+	margin: 0 1rem 0.5rem 0;
 	border-radius: 5%;
 }
 
 .contenido-principal__descripcion {
-	line-height: 2;
+	line-height: 1.5;
 }
