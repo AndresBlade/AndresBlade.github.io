@@ -40,6 +40,18 @@ h6 {
 	margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+	.contenedor {
+		width: 90%;
+	}
+}
+
+@media (min-width: 992px) {
+	.contenedor {
+		width: 80%;
+	}
+}
+
 .contenido-principal__imagen-perfil {
 	float: left;
 	width: 40%;
@@ -47,7 +59,20 @@ h6 {
 	border-radius: 5%;
 }
 
+@media (min-width: 992px) {
+	.contenido-principal__imagen-perfil {
+		width: 20%;
+		margin: 0 2rem 2rem 0;
+	}
+}
+
 .contenido-principal__descripcion {
 	line-height: 1.5;
 	text-align: justify;
+}
+
+@media (min-width: 992px) {
+	.contenido-principal__descripcion {
+		line-height: 2;
+	}
 }
