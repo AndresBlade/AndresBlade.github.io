@@ -24,15 +24,29 @@ h4,
 h5,
 h6 {
 	font-family: var(--fuenteSecundaria);
+	margin: 0;
 }
 
 .header {
 	display: flex;
+	background-color: #4488aa;
+	padding: 0 2.5% 0 2.5%;
+	color: #fff;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #4488aa;
-	padding: 0 10% 0 10%;
-	color: #fff;
+	flex-direction: column;
+}
+
+.header__nombre,
+.header__frase {
+	padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+	.header {
+		padding: 0 10% 0 10%;
+		flex-direction: row;
+	}
 }
 
 .contenedor {
