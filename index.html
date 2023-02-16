@@ -21,35 +21,43 @@
 		<!-- Fonts -->
 	</head>
 	<body>
-		<header class="header">
+		<header class="header contendor">
 			<h1 class="header__nombre">Andrés Arrieche</h1>
 			<h3 class="header__frase">Un desarrollador web</h3>
 		</header>
-
-		<div class="contenedor">
-			<main class="contenido-principal">
-				<h1 class="contenido-principal__titulo titulo">Biografía</h1>
-				<img
-					src="./img/yodefrente.jpg"
-					class="contenido-principal__imagen-perfil"
-					alt="Imagen de mi persona"
-				/>
-				<p class="contenido-principal__descripcion">
-					Mi nombre es Andrés Arrieche, tengo 18 años y soy estudiante
-					de tercer semestre de informática en el Instituto
-					Universitario Jesús Obrero (IUJO). Actualmente me encamino
-					en el desarrollo web, específicamente en el Front-end,
-					utilizando React de Facebook como Framework principal. Poseo
-					distintas habilidades adicionales que potencian mi trabajo
-					como desarrollador, tales como el uso de pruebas unitarias,
-					manejo de versiones (Git) y dominio del inglés escrito y en
-					cierta forma, escuchado
-				</p>
-			</main>
-			
-		</div>
-
-		<div class="tecnologias contenedor">
+		<nav class="navegacion">
+			<ul class="navegacion__barra contenedor">
+				<li>
+					<a href="#biografia" class="navegacion__link">Biografía</a>
+				</li>
+				<li>
+					<a href="#tecnologias" class="navegacion__link">Tecnologías</a>
+				</li>
+				<li>
+					<a href="#contacto" class="navegacion__link">Contacto</a>
+				</li>
+			</ul>
+		</nav>
+		<main class=" contenedor contenedor-resaltado contenido-principal" id="biografia">
+			<h1 class="contenido-principal__titulo titulo">Biografía</h1>
+			<img
+				src="./img/yodefrente.jpg"
+				class="contenido-principal__imagen-perfil"
+				alt="Imagen de mi persona"
+			/>
+			<p class="contenido-principal__descripcion">
+				Mi nombre es Andrés Arrieche, tengo 18 años y soy estudiante
+				de tercer semestre de informática en el Instituto
+				Universitario Jesús Obrero (IUJO). Actualmente me encamino
+				en el desarrollo web, específicamente en el Front-end,
+				utilizando React de Facebook como Framework principal. Poseo
+				distintas habilidades adicionales que potencian mi trabajo
+				como desarrollador, tales como el uso de pruebas unitarias,
+				manejo de versiones (Git) y dominio del inglés escrito y en
+				cierta forma, escuchado
+			</p>
+		</main>
+		<div class="tecnologias contenedor contenedor-resaltado" id="tecnologias">
 			<h3 class="tecnologias__titulo titulo">Tecnologías que domino:</h3>
 			<div class="tecnologias__grid">
 				<div class="tecnologias__card card">
