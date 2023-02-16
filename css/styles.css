@@ -3,6 +3,7 @@
 	--fuenteSecundaria: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	--colorPrimario: #4488aa;
+	--colorSecundario: #222288;
 }
 
 html {
@@ -154,7 +155,7 @@ h6 {
 	gap: 1rem;
 	flex-direction: column;
 	justify-content: center;
-	border: 1rem solid #222288;
+	border: 1rem solid var(--colorSecundario);
 	background-color: #ccccff;
 	border-radius: 1rem;
 	border-style: solid hidden hidden;
