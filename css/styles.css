@@ -102,6 +102,17 @@ h6 {
 	}
 }
 
+.contenido-principal__titulo {
+}
+
+.titulo {
+	padding: 0.5rem 0;
+	text-align: center;
+	background-color: #eee;
+	margin-bottom: 1rem;
+	border-radius: 1rem;
+}
+
 .contenido-principal__descripcion {
 	line-height: 1.5;
 	text-align: justify;
