@@ -111,6 +111,7 @@ h6 {
 	background-color: #eee;
 	margin-bottom: 1rem;
 	border-radius: 1rem;
+	font-size: 2.5rem;
 }
 
 .contenido-principal__descripcion {
@@ -145,9 +146,6 @@ h6 {
 }
 
 .tecnologias__titulo {
-	text-align: center;
-	font-size: 3rem;
-	padding: 2rem 0;
 }
 
 .card {
