@@ -29,6 +29,10 @@ h6 {
 	margin: 0;
 }
 
+a:any-link {
+	text-decoration: none;
+}
+
 .header {
 	display: flex;
 	background-color: var(--colorPrimario);
@@ -158,15 +162,36 @@ h6 {
 	border: 1rem solid var(--colorSecundario);
 	background-color: #ccccff;
 	border-radius: 1rem;
-	border-style: solid hidden hidden;
+	border-style: solid hidden solid;
+	height: 100%;
+	padding: 1rem 0 0;
 }
 
 .card__titulo {
 	text-align: center;
+	color: var(--colorSecundario);
+	font-weight: bold;
+	font-size: 2rem;
 }
 
 .card__imagen {
 	padding: 1rem;
+}
+
+.card__certificado {
+	text-align: center;
+	padding: 1rem;
+	background-color: var(--colorSecundario);
+	color: white;
+	transition: all 0.4s;
+}
+
+.card__certificado:hover {
+	background-color: #141477;
+}
+
+.card__tecnologia {
+	flex: 1 0 0;
 }
 
 @media (min-width: 768px) {
