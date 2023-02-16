@@ -2,6 +2,7 @@
 	--fuentePrimaria: 'Open Sans', sans-serif;
 	--fuenteSecundaria: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	--colorPrimario: #4488aa;
 }
 
 html {
@@ -29,7 +30,7 @@ h6 {
 
 .header {
 	display: flex;
-	background-color: #4488aa;
+	background-color: var(--colorPrimario);
 	padding: 0 2.5% 0 2.5%;
 	color: #fff;
 	justify-content: space-between;
