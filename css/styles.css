@@ -149,12 +149,14 @@ h6 {
 	padding: 2rem 0;
 }
 
-.card__titulo {
-	text-align: center;
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.card__imagen {
-	width: 100%;
+.card__titulo {
+	text-align: center;
 }
 
 @media (min-width: 768px) {
