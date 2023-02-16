@@ -153,6 +153,10 @@ h6 {
 	gap: 1rem;
 	flex-direction: column;
 	justify-content: center;
+	border: 1rem solid #222288;
+	background-color: #ccccff;
+	border-radius: 1rem;
+	border-style: solid hidden hidden;
 }
 
 .card__titulo {
